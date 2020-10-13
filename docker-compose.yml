@@ -1,0 +1,16 @@
+version: "2"
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+    - "/d/data/mysql:/var/lib/mysql"
+    restart: always
+    ports:
+    - 3306:3306
+    environment:
+      MYSQL_USER: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+
+
+
+
