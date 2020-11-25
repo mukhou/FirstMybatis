@@ -10,7 +10,3 @@ services:
     environment:
       MYSQL_USER: root
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-
-
-
-
